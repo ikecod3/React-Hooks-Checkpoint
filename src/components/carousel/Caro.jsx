@@ -19,7 +19,7 @@ const Caro = ({ topPick }) => {
                 top: "16rem",
                 color: "white",
               }}
-              className="grid sm:flex flex-col flex-wrap p-4 ml-8 tracking-wide"
+              className="grid sm:flex flex-col flex-wrap p-4 mx-auto tracking-wide"
             >
               <h1 className="tracking-widest">{title}</h1>
               <div className="inline-flex space-x-5 sm:flex-auto">

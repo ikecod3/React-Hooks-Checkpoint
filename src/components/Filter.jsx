@@ -44,7 +44,6 @@ const Filter = ({ memoizedMovies: { myMemoizedMovies }, setMyMovies }) => {
       {/* for filtering movies by rate  through select button*/}
       <Select
         defaultValue="Filter by rate"
-        className="text-3xl"
         style={{
           width: 150,
         }}

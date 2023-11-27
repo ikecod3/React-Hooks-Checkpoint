@@ -58,7 +58,7 @@ function App() {
   // show a spinner for displaying loading state of the app
   if (loadingMovies) {
     return (
-      <div className="grid place-items-center place-content-center mx-auto">
+      <div className="flex flex-col items-center justify-center h-screen">
         <Spin
           className="text-red-700"
           indicator={
@@ -70,7 +70,7 @@ function App() {
             />
           }
         />
-        <h3 className="mt-0">Fetching moives...</h3>
+        <h3 className="mx-auto">Fetching movies...</h3>
       </div>
     );
   }
