@@ -11,7 +11,7 @@
   font-family: "Mulish", sans-serif;
 }
 
-/* search button style */
+/* search button icon style */
 #root
   > div
   > div.max-w-4xl.mx-auto.flex.justify-between.flex-col.md\:flex-row.gap-4.py-8.px-3
@@ -20,5 +20,5 @@
   > span
   > span
   > button {
-  background-color: rgba(237, 10, 10, 0.717);
+  background-color: rgba(237, 10, 10, 0.717) !important;
 }

@@ -53,12 +53,13 @@ function App() {
     return {
       myMemoizedMovies: myMovies,
     };
-  }, [myMovies, loadingMovies, updateMemoizedMovies]);
+  }, [myMovies]);
 
   // show a spinner for displaying loading state of the app
   if (loadingMovies) {
     return (
       <div className="flex flex-col items-center justify-center h-screen">
+        {/* spin component */}
         <Spin
           className="text-red-700"
           indicator={
@@ -76,14 +77,15 @@ function App() {
   }
 
   return (
-    <div className="relative max-w-4xl">
+    <div className="relative max-w-fit">
+      {/* Navbar component */}
       <Navbar />
-      {/* carousel component */}
+      {/* carousel/image slider component */}
       <div className="hover:shadow-lg bg-stone-950">
         <Caro topPick={topPick} />
       </div>
       <div className="max-w-4xl mx-auto flex justify-between flex-col md:flex-row gap-4 py-8 px-3">
-        {/* create newmovie component */}
+        {/* create a newmovie component */}
         <CreateNewMovie
           memoizedMovies={memoizedMovies}
           setMyMovies={setMyMovies}

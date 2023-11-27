@@ -42,7 +42,7 @@ export const movies = [
       "Four teenagers from a rural village in South West Nigeria stumble upon a pouch of uncut diamonds, but before long, others come looking for the bounty.",
     posterUrl:
       "https://ocdn.eu/pulscms-transforms/1/2CLktkpTURBXy80MzQ3YmFhNzE2NDZmNWY0YzNjZDgwNWVlYTUzMjhhNS5wbmeSlQMhAM0DEc0BupMFzQSwzQJ2",
-    rating: 3,
+    rating: 2,
   },
   {
     id: "6",
