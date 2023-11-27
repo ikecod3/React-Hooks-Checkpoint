@@ -76,7 +76,7 @@ function App() {
   }
 
   return (
-    <div className="relative">
+    <div className="relative max-w-4xl">
       <Navbar />
       {/* carousel component */}
       <div className="hover:shadow-lg bg-stone-950">
