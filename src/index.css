@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:wght@400;600;700;900&family=Noto+Sans+Display:wght@400;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Cochin, sans-serif; */
+  font-family: "Mulish", sans-serif;
+  /* font-family: "Noto Sans Display", sans-serif; */
+}
+
+/* search button style */
+#root
+  > div
+  > div.max-w-4xl.mx-auto.flex.justify-between.flex-col.md\:flex-row.gap-4.py-8.px-3
+  > div
+  > span
+  > span
+  > span
+  > button {
+  background-color: rgba(237, 10, 10, 0.717);
+}
