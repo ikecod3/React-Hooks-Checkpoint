@@ -3,8 +3,8 @@ import MovieCard from "./MovieCard";
 
 const MovieList = ({ myMovies }) => {
   return (
-    <div className="max-w-5xl mx-auto px-8 ">
-      <div className="grid sm:flex-col md:grid-cols-3 lg:grid-cols-4 gap-6 mb-8 place-content-center">
+    <div className="max-w-6xl mx-auto px-8 ">
+      <div className="grid sm:flex-col md:grid-cols-3 lg:grid-cols-4 gap-6 mb-8 place-content-center mx-8">
         {myMovies.map((item) => (
           <MovieCard key={item.id} {...item} />
         ))}

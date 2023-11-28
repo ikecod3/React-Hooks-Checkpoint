@@ -5,7 +5,11 @@ const { Meta } = Card;
 const MovieCard = ({ title, description, posterUrl, rating }) => {
   return (
     <>
-      <Card hoverable cover={<img alt={title} src={posterUrl} />}>
+      <Card
+        className="border-cyan-300"
+        hoverable
+        cover={<img alt={title} src={posterUrl} />}
+      >
         <Meta
           style={{
             marginBottom: "1rem",
