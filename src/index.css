@@ -16,3 +16,8 @@
 .ant-modal-footer > button:nth-child(2) {
   background-color: rgba(237, 10, 10, 0.717) !important;
 }
+
+/* card title style is here */
+.ant-card-meta-title {
+  font-size: 18px !important;
+}
