@@ -11,14 +11,8 @@
   font-family: "Mulish", sans-serif;
 }
 
-/* search button icon style */
-#root
-  > div
-  > div.max-w-4xl.mx-auto.flex.justify-between.flex-col.md\:flex-row.gap-4.py-8.px-3
-  > div
-  > span
-  > span
-  > span
-  > button {
+/*search and modal button style is here */
+.ant-input-group-addon > button,
+.ant-modal-footer > button:nth-child(2) {
   background-color: rgba(237, 10, 10, 0.717) !important;
 }

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Carousel } from "antd";
+import { Carousel } from "antd"; 
 
 const Caro = ({ topPick }) => {
   return (
